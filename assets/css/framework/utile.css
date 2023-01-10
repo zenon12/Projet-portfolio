@@ -1,0 +1,152 @@
+/* ********************
+FlexBox
+******************** */
+.flex{
+    display: flex;
+}
+
+.jcc{
+    justify-content: center;
+}
+.aic{
+    align-items: center;
+}
+.jcsb{
+    justify-content: space-between;
+}
+.jcse{
+    justify-content: space-evenly;
+}
+.aife{
+    align-items: flex-end;
+}
+.aifs{
+    align-items: flex-start;
+}
+
+.flex-1{
+    flex: 1;
+}
+.flex-2{
+    flex: 2;
+}
+.flex-3{
+    flex: 3;
+}
+.flex-4{
+    flex: 4;
+}
+
+.gap-5{
+    gap: 5px;
+}
+.gap-10{
+    gap: 10px;
+}
+.gap-5{
+    gap: 5px;
+}
+.gap-15{
+    gap: 15px;
+}
+.gap-20{
+    gap: 20px;
+}
+.gap-25{
+    gap: 25px;
+}
+.gap-30{
+    gap: 30px;
+}
+
+
+
+/* ************************
+Position
+************************ */
+.static{
+    position: static;
+}
+.relative{
+    position: relative;
+}
+.fixed{
+    position: fixed;
+}
+.absolute{
+    position: absolute;
+}
+.sticky{
+    position: sticky;
+}
+
+
+/* ***************************
+display
+**************************** */
+.none{
+    display: none;
+}
+.inline{
+    display: inline;
+}
+.block{
+    display: block;
+}
+.inline-block{
+    display: inline-block;
+}
+
+
+/* ****************************
+Typographie
+**************************** */
+.bold{
+    font-weight: bold;
+}
+
+/* ****************************
+General 
+***************************** */
+button{
+    outline: none;
+    font-size: 1.2rem;
+    padding: 10;
+    background-color: var(--main-color-white);
+    color: var(--main-color-black);
+}
+
+input,
+select,
+textarea {
+    outline: none;
+}
+
+a{
+    color: var(--main-color-black);
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.tc{
+    text-align: center;
+}
+
+.box{
+    box-shadow: 2px 8px 12px rgb(0 0 0/20%);
+}
