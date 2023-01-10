@@ -11,21 +11,37 @@ body{
     height: 100vh;
 }
 
-#menu {
-    background-color: var(--main-color);
-}
 .content {
     background-color: var(--main-color-green);
 }
 
-
-
-
-
-
-@media screen and (max-width: 600px) {
-    .container{
-        flex-direction: column;
-    }
-    
+.profile-picture img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
 }
+
+a.active{
+    background-color: #efefef;
+}
+a.active::after{
+    content: "";
+    height: 50px;
+    border-left: 3px solid var(--main-color);
+    position: absolute;
+    right: 0;
+}
+
+.menu-mobile {
+    display: none;
+}
+.menu-mobile i{
+    font-size: 2rem;
+    color: var(--main-color-black);
+}
+
+
+
+
+
+
