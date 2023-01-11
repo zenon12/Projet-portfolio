@@ -6,13 +6,8 @@ body{
     font-style: normal;
     visibility: visible;
 }
-
 .container{
     height: 100vh;
-}
-
-.content {
-    background-color: var(--main-color-green);
 }
 
 .profile-picture img{
@@ -37,7 +32,18 @@ a.active::after{
 }
 .menu-mobile i{
     font-size: 2rem;
-    color: var(--main-color-black);
+    color: var(--main-color-gray);
+    cursor: pointer;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--main-color-gray);
+    opacity: 0.6;
 }
 
 
