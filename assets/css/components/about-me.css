@@ -1,0 +1,223 @@
+.content-pages h2{
+    font-size: 1.7rem;
+}
+
+.content-pages .about-owner-text p{
+    text-align: left;
+}
+
+.content-pages .testimonials h2{
+    text-decoration: underline;
+    text-decoration-color: var(--main-color);
+}
+
+.testimonials-item .testimonials-text {
+    display:flex;
+    justify-content:flex-end;
+}
+.testimonials-item .witness-view {
+    border: 2px solid  var(--main-color-gray);
+    border-radius: 10px;
+    background-color: #efefef;
+    padding: 25px;
+    width: 340px;
+}
+
+
+.witness-news .witness-profile-picture {
+    position: relative;
+    bottom: 25px;
+}
+.witness-news .witness-profile-picture img{
+    width: 80px;
+    height: 80px;
+    border-radius: 90px;
+    background-color: var(--main-color-white);
+    border: 2px solid var(--main-color-gray);
+}
+
+.witness-news .witness-details{
+    padding: 10px 0;
+}
+.witness-news .witness-details .fullname{
+    font-size: 1.2rem;
+}
+.witness-news .witness-details .occupation{
+    color: var(--main-color-gray);
+}
+
+.pagination-witness{
+    right: 5px;
+    bottom: 45px;
+}
+.pagination-witness .btn{
+    width: 30px;
+    height: 30px;
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.pagination-witness .btn i{
+    font-size: 0.9rem;
+}
+
+
+
+/* ************************* section-service ******************** */
+.section-service,
+.section-clients,
+.section-fun-fats{
+    margin: 30px 0;
+}
+.section-title h2{
+    text-decoration: underline;
+    text-decoration-color: var(--main-color);
+}
+
+.service-item {
+    margin: 30px 0;
+    width: 220px;
+}
+
+.service-item .service-icon img{
+    width: 100px;
+    
+}
+.service-item .service-name{
+    font-weight: bold;
+    margin: 15px 0;
+}
+.service-item .service-details{
+    text-align:justify;
+
+}
+
+
+/* *********************  clients ******************************** */
+.section-clients{
+    margin: 50px 0;
+}
+.partner-list{
+    margin: 20px 0;
+}
+.partner-item i{
+    zoom: 1.5;
+}
+
+/* *********************  fun facts ******************************** */
+.fun-facts-list{
+    margin: 30px 0;
+}
+.fun-facts-item {
+    width: 175px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ccc;
+    cursor: pointer;
+}
+.fun-facts-item:hover{
+    box-shadow: 0 4px 8px 2px  rgb(0 0 0/10%);
+}
+.fun-facts-item:nth-child(2n-1) {
+    background-color: #efefef;
+}
+.fun-facts-item .fun-facts-icon{
+    font-size: 4rem;
+}
+.fun-facts-item .fun-facts-name{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 10px 0;
+    text-transform: capitalize;
+    
+}
+.fun-facts-item .value{
+    color: var(--main-color);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+
+
+@media screen and (max-width:1277px) {
+    .content-pages {
+        width: 95%;
+        margin: 30px auto;
+       
+    }
+    
+    .about-owner-and-testimonials{
+        flex-direction: column;
+    }
+    .testimonials-item .witness-view {
+        width: 80%;
+    }
+    .witness-news{
+        margin-left:9%;
+    }
+}
+
+@media screen and (max-width:970px) {
+    .witness-news{
+        margin-left:0;
+    }
+}
+@media screen and (max-width:800px) {
+    .service-list,
+    .partner-list{
+        justify-content: center;
+    }
+}
+@media screen and (max-width:723px) {
+    .fun-facts-list{
+        justify-content: center;
+        gap: 20px;
+    }
+    
+}
+@media screen and (max-width:690px) {
+    .about-owner .introducing h2{
+        font-size: 1.1rem;
+    }
+    .witness-news .witness-details .fullname{
+        font-size: 0.9rem;
+    }
+    .witness-news .witness-details .occupation{
+        font-size: 0.9rem;
+    }
+    .pagination-witness{
+        bottom: 20px;
+    }
+
+    
+
+}
+@media screen and (max-width:600px) {
+    .service-list,
+    .partner-list,
+    .fun-facts-list{
+       flex-direction: column;
+       align-items: center;
+    }
+    .service-item,
+    .partner-item,
+    .fun-facts-item{
+       width: 95%;
+    }
+    .partner-item{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+    .partner-item i{
+        zoom: 2;
+    }
+
+
+}

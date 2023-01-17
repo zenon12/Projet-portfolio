@@ -8,6 +8,10 @@ body{
 }
 .container{
     height: 100vh;
+    overflow: hidden;
+}
+.content{
+    overflow-y: auto;
 }
 
 .profile-picture img{
@@ -44,6 +48,26 @@ a.active::after{
     height: 100%;
     background-color: var(--main-color-gray);
     opacity: 0.6;
+}
+
+
+.content-title{
+    color: var(--main-color-white);
+    background-color: var(--main-color);
+    height: 50px;
+    width: 200px;
+    text-align: end;
+    line-height: 50px;
+    padding: 0 10px;
+    margin: 20px 0;
+    box-shadow: 0 1px 2px 4px rgb(0 0 0/10%);
+
+}
+
+.content-pages {
+    width: 950px;
+    margin: 30px auto;
+   
 }
 
 

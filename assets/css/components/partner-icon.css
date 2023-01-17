@@ -1,0 +1,32 @@
+i{
+    display: block;
+}
+.bg-partner3 {
+    width: 82px; height: 62px;
+    background: url('/assets/image/partner/css_sprites.png') -10px -101px;
+}
+
+.bg-last_partner {
+    width: 84px; height: 63px;
+    background: url('/assets/image/partner/css_sprites.png') -111px -10px;
+}
+
+.bg-pa {
+    width: 78px; height: 54px;
+    background: url('/assets/image/partner/css_sprites.png') -10px -183px;
+}
+
+.bg-pacific {
+    width: 81px; height: 57px;
+    background: url('/assets/image/partner/css_sprites.png') -112px -101px;
+}
+
+.bg-hamb {
+    width: 70px; height: 68px;
+    background: url('/assets/image/partner/css_sprites.png') -215px -10px;
+}
+
+.bg-forged1 {
+    width: 81px; height: 71px;
+    background: url('/assets/image/partner/css_sprites.png') -10px -10px;
+}
