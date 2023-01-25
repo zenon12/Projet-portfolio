@@ -1,0 +1,118 @@
+.nav-subjects .nav-item{
+    height: 35px;
+    line-height: 35px;
+    padding: 0 10px;
+    font-weight: 450;
+    font-size: 0.98rem;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+.nav-subjects .nav-item:hover{
+    border: 1px solid var(--main-color);
+}
+
+.nav-item.current{
+    background-color: var(--main-color);
+    color: var(--main-color-white);
+}
+
+
+
+/* **************************
+ILLUSTRATION PROJECT
+******************************** */
+.illustrations-projects{
+    margin: 40px 0;
+}
+.project-item{
+    width: 290px;
+    border: 1px solid #efefef;
+}
+.project-item:hover{
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.project-item img{
+    width: 100%;
+    height: 190px;
+}
+
+
+/* *****************************
+menu nav subject
+********************************** */
+.menu-nav-subject {
+    display: none;
+}
+.menu-nav-subject i{
+    font-size: 2.2rem;
+    color: var(--main-color-gray);
+    cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width:945px) {
+    .projects{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+@media screen and (max-width:782px) {
+    .nav-subjects{
+        gap: 5px;
+    }
+    .nav-subjects .nav-item{
+        font-size: 0.8rem;
+    }
+    
+}
+@media screen and (max-width:700px) {
+    .project-item{
+        width: 95%;
+    }
+    .nav-subjects{
+        gap: 2px;
+    }
+    .nav-subjects .nav-item{
+        font-size: 0.6rem;
+    }
+}
+@media screen and (max-width:600px) {
+    .project-item{
+        width: 85%;
+    }
+    .project-item img{
+        height: 200px;
+    }
+    .nav-subjects{
+        gap: 10px;
+    }
+    .nav-subjects .nav-item{
+        font-size: 0.9rem;
+    }
+    
+    
+}
+@media screen and (max-width:410px) {
+    .nav-subjects{
+        gap: 5px;
+    }
+    .nav-subjects .nav-item{
+        font-size: 0.7rem;
+    }
+    
+    
+}
+@media screen and (max-width:280px) {
+    .nav-subjects{
+        gap: 5px;
+    }
+    .nav-subjects .nav-item{
+        font-size: 0.55rem;
+    }
+    
+    
+}

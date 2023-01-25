@@ -60,13 +60,37 @@ a.active::after{
     line-height: 50px;
     padding: 0 10px;
     margin: 20px 0;
-    box-shadow: 0 1px 2px 4px rgb(0 0 0/10%);
+    box-shadow: 0 1px 2px 1px rgb(0 0 0/10%);
 
 }
 
 .content-pages {
     width: 950px;
     margin: 30px auto;
+}
+
+
+.b{
+    border: 1px solid red;
+}
+
+.caret-pages::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border: 5px solid var(--main-color);
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid transparent;
+}
+.caret-section::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border: 5px solid var(--main-color-green);
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid transparent;
 }
 
 
