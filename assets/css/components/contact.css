@@ -1,0 +1,172 @@
+.adress-items{
+    margin: 20px 0;
+}
+
+.adress-items .adress-item {
+    margin: 20px 0;
+}
+.section-message{
+    text-align: justify;
+}
+.adress-items .adress-item .icon i{
+    font-size: 1.8rem;
+    color:var(--main-color-gray);
+
+}
+.adress-items .adress-item .description{
+    font-weight: bold;
+    font-size: 1.1rem;
+
+}
+
+
+/* ************************
+contact form
+**************************** */
+.section-get-in-touch,
+.section-contact-form{
+    width: 415px;
+}
+
+.content-form .form-fullname label{
+    text-transform: capitalize;
+    color:var(--main-color-gray);
+    font-weight: 480;
+    opacity: 0.7;
+}
+
+.content-form .form-inline,
+.content-form .form-textarea-icon{
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.content-form .form-inline .form-input{
+    display: flex;
+}
+.content-form .form-inline input{
+    padding-left: 8px;
+    flex: 1 ;
+    height: 40px;
+    font-size: 1.2rem;
+    border: none;
+}
+
+.content-form .form-icon{
+    color: var(--main-color-gray);
+    font-size: 1.5rem;
+    padding-right: 5px;
+}
+
+.content-form .form-textarea-icon{
+    padding: 10px 5px;
+}
+.content-form .form-textarea textarea{
+    width: 100%;
+    height: 100px;
+    font-size: 1.06rem;
+    font-weight: 550;
+    opacity: 0.75;
+    resize:none;
+    border: none;
+}
+
+.content-form .form-security-service{
+    border: 2px solid #ccc;
+    background-color: #efefef;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+
+.content-form .form-security-service input{
+    width: 25px;
+    height: 25px;
+    border: 2px solid #ccc;
+}
+.content-form .form-security-service label{
+    font-weight: bold;
+}
+.content-form .form-security-service img{
+    width: 55px;
+}
+.content-form .form-security-service .service-message{
+    font-size: 0.8rem;
+    color: var(--main-color-gray);
+    text-align: right;
+}
+
+.content-form .btn-submit{
+    border: 2px solid var(--main-color);
+    padding: 10px 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1200px) {
+    .container-contact{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-get-in-touch,
+    .section-contact-form{
+    width: 80%;
+}
+
+}
+@media screen and (max-width:700px) {
+    .section-get-in-touch,
+    .section-contact-form{
+        width: 98%;
+    }
+    .content-form .form-security-service label{
+        font-size: 0.98rem;
+    }
+
+    
+
+}
+@media screen and (max-width:670px) {
+    .section-message{
+        font-size: 0.9rem;
+    }
+
+    .adress-items .adress-item .icon i{
+        font-size: 1.5rem;
+    }
+   
+    .adress-items .adress-item .description{
+        font-size: 0.85rem;
+    
+    }
+
+    .content-form .form-inline input{
+        font-size: 0.9rem;
+    }
+    
+    .content-form .form-icon{
+        color: var(--main-color-gray);
+        font-size: 1.2rem;
+        padding-right: 5px;
+    }
+
+    .content-form .form-security-service label{
+        font-size: 0.86rem;
+    }
+   
+
+    
+
+}
