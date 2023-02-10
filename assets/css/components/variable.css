@@ -4,4 +4,6 @@
     --main-color-gray: gray ;
     --main-color-white: white ;
     --main-color-black: #1d1d1d ;
+    --z-index: 998 ;
+    --z-index-mobile: 999 ;
 }

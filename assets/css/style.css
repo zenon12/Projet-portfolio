@@ -96,5 +96,11 @@ a.active::after{
 
 
 
+@media screen and (max-width: 600px) {
+    .content{
+        margin-top: 60px;
+    }
+}
+
 
 
